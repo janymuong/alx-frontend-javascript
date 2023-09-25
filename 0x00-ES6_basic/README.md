@@ -39,3 +39,37 @@ Entails exploring essential `ES6` concepts, including `constants`, `variables`, 
 ```bash
 node parh/to/javascript-file.js
 ```
+
+---
+### `appendix`:
+> more configuration files info;
+
+
+1. **package.json:**
+   (based on content of this file in local)
+   This file is used to manage project's dependencies and scripts. Here's what each script does:
+
+   - `lint`: Runs ESLint to check your code for style and potential errors.
+   - `check-lint`: Specifically checks JavaScript files (`[0-9]*.js`) using ESLint.
+   - `dev`: Executes scripts using `babel-node`, allowing you to run JavaScript files with ES6 features.
+   - `test`: Executes Jest for running unit tests.
+   - `full-test`: Combines linting and Jest tests in a single command.
+
+   The `devDependencies` section lists the development dependencies needed for linting (ESLint and related plugins) and testing (Jest).
+
+2. **babel.config.js:**
+
+   This file configures Babel, a JavaScript compiler that allows you to use the latest ECMAScript features. In this configuration, Babel is set up to use the `@babel/preset-env` preset with the target environment being the current Node.js version.
+
+3. **.eslintrc.js:**
+
+   This file configures ESLint, a tool for identifying and fixing code style issues and potential errors. Key configurations include:
+
+   - Environment settings (`env`) specify that you're using ES6 and Jest for testing.
+   - Extends the Airbnb base style guide for code consistency.
+   - Disables certain rules such as 'no-console' and 'no-shadow.'
+   - Overrides for specific files (excluding `babel.config.js` from linting).
+
+4. **npm install:**
+
+   Run `npm install` from the terminal in a project directory to install all the necessary dependencies listed in the `package.json` file. This command ensures that ESLint, Jest, Babel, and other required packages are installed.
