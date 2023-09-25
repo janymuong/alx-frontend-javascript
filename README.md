@@ -1,8 +1,8 @@
 # ALX SE Frontend JavaScript
 
-> Frontend JavaScript Specialization
-
-This specialization is designed to enhance proficiency in building interactive and responsive web applications using JavaScript, HTML, and CSS, and some frameworks.  
+> **Note**  
+> Frontend JavaScript Specialization  
+>> This specialization is designed to enhance proficiency in building interactive and responsive web applications using JavaScript, HTML, and CSS, and some frameworks.  
 
 
 This specialization might consist of a series of projects that cover the following key topics:
