@@ -69,6 +69,7 @@ node parh/to/javascript-file.js
    - Extends the Airbnb base style guide for code consistency.
    - Disables certain rules such as 'no-console' and 'no-shadow.'
    - Overrides for specific files (excluding `babel.config.js` from linting).
+   - Lint files in CLI like this: `npx eslint filename.js`, and fix like this: `npx eslint --fix filename.js`
 
 4. **npm install:**
 
