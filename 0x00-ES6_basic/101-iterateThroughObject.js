@@ -3,7 +3,7 @@ export default function iterateThroughObject(reportWithIterator) {
 
   // iterate over the report iterator;
   for (const employee of reportWithIterator) {
-    employeeNames += `${employee}|`;
+    employeeNames += `${employee} |`;
   }
 
   return employeeNames;
