@@ -14,8 +14,7 @@ Focuses on `JavaScript ES6` *data manipulation*, and also covers `map`, `filter`
 
 ## Requirements
 
-- *Node.js 12.11.x*, Visual Studio Code or `vi/vim`, ESLint.
-- You can use editors like vi, vim, emacs, or 
+> *Node.js 12.11.x*, Visual Studio Code or `vi/vim`, ESLint.
 
 
 ## Setup
