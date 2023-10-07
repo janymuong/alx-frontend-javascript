@@ -22,6 +22,19 @@ interface Teacher {
     contract: false,
   };
 
-  console.log(teacher1);
-  console.log(teacher3);
-    
+//   console.log(teacher1);
+//   console.log(teacher3);
+
+  interface Directors extends Teacher {
+    numberOfReports: number;
+  }
+
+  const director1: Directors = {
+    firstName: 'Erwin',
+    lastName: 'Smith',
+    location: 'Paradis Island',
+    fullTimeEmployee: true,
+    numberOfReports: 17,
+  };
+
+  console.log(director1);
