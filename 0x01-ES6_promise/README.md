@@ -1,6 +1,7 @@
 # ES6 Promises
-> ES6 `Promises` and `Asynchronous JavaScript`
-> Working with ***ES6 Promises***, ***asynchronous programming*** as JavaScript concepts. It focuses on the use of Promises, `async/await`, `throw`, `try/catch`, etc.   
+> ES6 `Promises` and `Asynchronous JavaScript`  
+>> Working with ***ES6 Promises***, ***asynchronous programming*** as JavaScript concepts.  
+>> It focuses on the use of Promises, `async/await`, `throw`, `try/catch`, etc.   
 
 
 ## Table of Contents
@@ -9,6 +10,7 @@
 - [Setup](#setup)
 - [Configuration Files](#configuration-files)
 - [Response Data Format](#response-data-format)
+- [Appendix](#appendix)
 
 ## Info:
 In this project, you will explore ES6 Promises and asynchronous JavaScript, gaining a deep understanding of the following concepts:
@@ -24,7 +26,7 @@ In this project, you will explore ES6 Promises and asynchronous JavaScript, gain
 - Creating and using async functions
 
 ## Objectives
-> **Note**  
+
     ```bash
     - The fundamentals of Promises, including their purpose and how to use them
     - How to use the `then`, `resolve`, and `catch` methods to handle Promises
