@@ -43,7 +43,7 @@ In this project, you will explore ES6 Promises and asynchronous JavaScript, gain
 - Node.js 12.11.x
 - Supported editors: vi/vim, Visual Studio Code
 - TEST code using Jest (run `npm run test`)
-- VERIFY Code quality against ESLint (run `npm run lint`)
+- VERIFY Code quality against ESLint (run `npm run lint or npx eslint --fix filename.js`)
 
 
 ## Setup
